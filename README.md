@@ -22,4 +22,4 @@ Developing an insurance framework using blockchain and smart contracts involves 
 
 - [Front End](./resource/sample-frontend.md)
 
-- [Resources Link](./resource/link.md)
+- [Resources Link](./resource/LINK.md)
