@@ -16,8 +16,10 @@ Developing an insurance framework using blockchain and smart contracts involves 
 
 - **Integrate the Front-End Application:** Integrate the front-end application with the smart contract on the blockchain. This will allow policyholders to purchase insurance policies and submit claims, and allow the insurance company to verify claims and payout compensation.
 
-[Sample of smart Contract](./resource/sample-contract.md) 
+---
 
-[Sample front-end for portal](./resource/sample-frontend.md)
+- [Smart Contract ](./resource/sample-contract.md) 
 
-[Some Important Link](./resource/link.md)
+- [Front End](./resource/sample-frontend.md)
+
+- [Resources Link](./resource/link.md)
