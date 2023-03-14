@@ -13,6 +13,8 @@
 
 - **[Health Insurnace Claim Dapp](https://github.com/narottamaswal/Health-Insurance-Claim-Dap-Blockchain-Project)**
 
+
+- **[IBM Insurnace Blockchain](https://github.com/IBM/build-blockchain-insurance-app)**
 [GeoLawrance health dapp](https://github.com/GeoLawrence/Health-Insurance-Dapp)
 
 [rsd511 healthbuddy](https://github.com/rsd511/HealthBuddy-DApp)
@@ -34,13 +36,3 @@
 [Git repo](https://github.com/hoangedward/HealthcarePro)
 
 ---
-
-# Link the smart contract to Frontend
-
-To link Ethereum with frontend, you need to use a JavaScript library that can interact with the Ethereum blockchain and smart contracts. Some of the popular libraries are:
-
-- `web3.js`: An Ethereum JavaScript API that connects using the generic JSON-RPC spec23. It provides complete functionality for all your Ethereum needs and allows you to create client-side wallets, send transactions, call smart contract functions and more4.
-
-- `ethers.js`: An alternative to web3.js that aims to make it simpler and safer to write client-side JavaScript-based wallets4. It supports TypeScript, promises and events, and has a smaller bundle size than web3.js5.
-
-- `create-eth-app`: A tool that helps you kickstart your dapp frontend development with React and Tailwind CSS. It comes with several optional integrations such as Etherscan, The Graph, OpenZeppelin and more5.
