@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@truffle/contract@4.3.5/dist/truffle-contract.js"></script>
+        <script src="app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
+            integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: black;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            /* Add padding to containers */
+            .container {
+                padding: 16px;
+                background-color: white;
+            }
+
+            /* Full-width input fields */
+            input[type="text"],
+            input[type="password"] {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                display: inline-block;
+                border: none;
+                background: #f1f1f1;
+            }
+
+            input[type="text"]:focus,
+            input[type="password"]:focus {
+                background-color: #ddd;
+                outline: none;
+            }
+
+            /* Overwrite default styles of hr */
+            hr {
+                border: 1px solid #f1f1f1;
+                margin-bottom: 25px;
+            }
+
+            /* Set a style for the submit button */
+            .registerbtn {
+                background-color: #04aa6d;
+                color: white;
+                padding: 16px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.9;
+            }
+
+            .registerbtn:hover {
+                opacity: 1;
+            }
+
+            /* Add a blue text color to links */
+            a {
+                color: dodgerblue;
+            }
+
+            /* Set a grey background color and center the text of the "sign in" section */
+            .signin {
+                background-color: #f1f1f1;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow">
+            <a
+                class="navbar-brand col-sm-3 col-md-2 mr-0"
+                href="http://www.dappuniversity.com/free-download"
+                target="_blank"
+                >Dapp University | Todo List</a
+            >
+            <ul class="navbar-nav px-3">
+                <li class="nav-item text-nowrap d-none d-sm-none d-sm-block">
+                    <small
+                        ><a class="nav-link" href="#"
+                            ><span id="account"></span
+                            ><span id="userscount"></span></a
+                    ></small>
+                </li>
+            </ul>
+        </nav>
+        <p id="namee"></p>
+        <form id="signinform" onSubmit="App.logout(); return false;">
+            <div class="container signin">
+                <button type="submit" class="btn btn-primary">Logout</button>
+            </div>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@truffle/contract@4.3.5/dist/truffle-contract.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"
+            integrity="sha512-5erpERW8MxcHDF7Xea9eBQPiRtxbse70pFcaHJuOhdEBQeAxGQjUwgJbuBDWve+xP/u5IoJbKjyJk50qCnMD7A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="app.js"></script>
+    </body>
+</html>
