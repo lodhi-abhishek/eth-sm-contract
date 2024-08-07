@@ -1,4 +1,4 @@
-# Secured Ensurance Framework using Smart Contract
+# Secured Insurance Framework using Smart Contract
 
 ## How to run
 
